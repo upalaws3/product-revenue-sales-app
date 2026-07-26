@@ -84,7 +84,7 @@ if st.button("Predict Sales Revenue"):
             ]
 
             st.success(
-                f"Predicted Product Store Sales: ₹ {prediction[0],.2f}"
+                f"Predicted Product Store Sales: ₹ {prediction:,.2f}"
             )
 
         else:
